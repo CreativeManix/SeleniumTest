@@ -1,0 +1,12 @@
+D:\sarsu\se\EShop.Test\EShop.Automation.Console\bin\Debug\chromedriver.exe
+D:\sarsu\se\EShop.Test\EShop.Automation.Console\bin\Debug\EShop.Automation.Console.exe.config
+D:\sarsu\se\EShop.Test\EShop.Automation.Console\bin\Debug\EShop.Automation.Console.exe
+D:\sarsu\se\EShop.Test\EShop.Automation.Console\bin\Debug\EShop.Automation.Console.pdb
+D:\sarsu\se\EShop.Test\EShop.Automation.Console\bin\Debug\EShop.Automation.dll
+D:\sarsu\se\EShop.Test\EShop.Automation.Console\bin\Debug\WebDriver.dll
+D:\sarsu\se\EShop.Test\EShop.Automation.Console\bin\Debug\EShop.Automation.pdb
+D:\sarsu\se\EShop.Test\EShop.Automation.Console\bin\Debug\WebDriver.xml
+D:\sarsu\se\EShop.Test\EShop.Automation.Console\obj\Debug\EShop.Automation.Console.csprojResolveAssemblyReference.cache
+D:\sarsu\se\EShop.Test\EShop.Automation.Console\obj\Debug\EShop.Automation.Console.csproj.CoreCompileInputs.cache
+D:\sarsu\se\EShop.Test\EShop.Automation.Console\obj\Debug\EShop.Automation.Console.exe
+D:\sarsu\se\EShop.Test\EShop.Automation.Console\obj\Debug\EShop.Automation.Console.pdb

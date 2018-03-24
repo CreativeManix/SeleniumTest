@@ -1,0 +1,8 @@
+D:\sarsu\se\EShop.Test\EShop.Automation\bin\Debug\EShop.Automation.dll
+D:\sarsu\se\EShop.Test\EShop.Automation\bin\Debug\EShop.Automation.pdb
+D:\sarsu\se\EShop.Test\EShop.Automation\bin\Debug\WebDriver.dll
+D:\sarsu\se\EShop.Test\EShop.Automation\bin\Debug\WebDriver.xml
+D:\sarsu\se\EShop.Test\EShop.Automation\obj\Debug\EShop.Automation.csprojResolveAssemblyReference.cache
+D:\sarsu\se\EShop.Test\EShop.Automation\obj\Debug\EShop.Automation.csproj.CoreCompileInputs.cache
+D:\sarsu\se\EShop.Test\EShop.Automation\obj\Debug\EShop.Automation.dll
+D:\sarsu\se\EShop.Test\EShop.Automation\obj\Debug\EShop.Automation.pdb

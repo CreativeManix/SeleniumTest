@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="92eb8d4d-6dd9-41ec-a76c-7a5fac7d3f97" name="Mani@DESKTOP-1FQE50J 2018-02-18 13:32:20" runUser="DESKTOP-1FQE50J\Mani" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2018-02-18T13:32:20.6831827+11:00" queuing="2018-02-18T13:32:20.6831827+11:00" start="2018-02-18T13:32:14.1948230+11:00" finish="2018-02-18T13:32:40.3255873+11:00" />
+  <TestSettings name="default" id="0b61c364-65c7-44f4-be03-0ee7e935ffe9">
+    <Execution>
+      <TestTypeSpecific />
+    </Execution>
+    <Deployment runDeploymentRoot="Mani_DESKTOP-1FQE50J 2018-02-18 13_32_20" />
+    <Properties />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="4c04025c-4b21-4074-974a-451ca5048c3a" testId="5c433df3-f043-d333-1aeb-122bc57f3ab3" testName="PerformMyAccountoperations" computerName="DESKTOP-1FQE50J" startTime="2018-02-18T13:32:14.8445055+11:00" endTime="2018-02-18T13:32:20.5524424+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4c04025c-4b21-4074-974a-451ca5048c3a">
+      <Output>
+        <ErrorInfo>
+          <Message>Class Initialization method EShop.Automation.Test.MyAccountPageTest.Init threw exception. OpenQA.Selenium.NoSuchElementException: OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"Email"}
+  (Session info: chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86).</Message>
+          <StackTrace>   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)
+   at OpenQA.Selenium.By.&lt;&gt;c__DisplayClass16_0.&lt;Id&gt;b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at EShop.Automation.BasePage.FindById(String id) in D:\sarsu\se\EShop.Test\EShop.Automation\BasePage.cs:line 23
+   at EShop.Automation.Pages.LogInPage.set_Email(String value) in D:\sarsu\se\EShop.Test\EShop.Automation\Pages\LogInPage.cs:line 23
+   at EShop.Automation.Test.AuthenticatedBaseTest.PerformLogin(IAppDriver driver) in D:\sarsu\se\EShop.Test\EShop.Automation.Test\TestData\AuthenticatedTest.cs:line 17
+   at EShop.Automation.Test.MyAccountPageTest.Init(TestContext c) in D:\sarsu\se\EShop.Test\EShop.Automation.Test\Tests\MyAccountPageTest.cs:line 26
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="671b8094-59fe-4b31-8846-4a865a0ae079" testId="2dab56c9-1a34-4723-8c53-11596ad0b49d" testName="PerformRegistration (Data Row 0)" computerName="DESKTOP-1FQE50J" duration="00:00:02.3457724" startTime="2018-02-18T13:32:20.5604649+11:00" endTime="2018-02-18T13:32:39.9993093+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="671b8094-59fe-4b31-8846-4a865a0ae079">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method EShop.Automation.Test.RegistrationTest.PerformRegistration threw exception: 
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"Email"}
+  (Session info: chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86)</Message>
+          <StackTrace>    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)
+   at OpenQA.Selenium.By.&lt;&gt;c__DisplayClass16_0.&lt;Id&gt;b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at EShop.Automation.BasePage.FindById(String id) in D:\sarsu\se\EShop.Test\EShop.Automation\BasePage.cs:line 23
+   at EShop.Automation.Pages.RegistrationPage.set_Email(String value) in D:\sarsu\se\EShop.Test\EShop.Automation\Pages\RegistrationPage.cs:line 22
+   at EShop.Automation.Test.RegistrationTest.PerformRegistration() in D:\sarsu\se\EShop.Test\EShop.Automation.Test\Tests\RegistrationTest.cs:line 30
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="13ba7f1c-142a-440c-a3e0-6335aa5b40c2" testId="a7b85701-d80d-4df0-a35c-0fc5527790a8" testName="PerformRegistration (Data Row 1)" computerName="DESKTOP-1FQE50J" duration="00:00:02.0916616" startTime="2018-02-18T13:32:20.5604649+11:00" endTime="2018-02-18T13:32:39.9993093+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="13ba7f1c-142a-440c-a3e0-6335aa5b40c2">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method EShop.Automation.Test.RegistrationTest.PerformRegistration threw exception: 
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"Email"}
+  (Session info: chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86)</Message>
+          <StackTrace>    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)
+   at OpenQA.Selenium.By.&lt;&gt;c__DisplayClass16_0.&lt;Id&gt;b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at EShop.Automation.BasePage.FindById(String id) in D:\sarsu\se\EShop.Test\EShop.Automation\BasePage.cs:line 23
+   at EShop.Automation.Pages.RegistrationPage.set_Email(String value) in D:\sarsu\se\EShop.Test\EShop.Automation\Pages\RegistrationPage.cs:line 22
+   at EShop.Automation.Test.RegistrationTest.PerformRegistration() in D:\sarsu\se\EShop.Test\EShop.Automation.Test\Tests\RegistrationTest.cs:line 30
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e4b4e343-ba41-438e-9ac3-eecb611ee290" testId="e38c9baa-5323-4632-bcf1-856a8c0b785a" testName="PerformRegistration (Data Row 2)" computerName="DESKTOP-1FQE50J" duration="00:00:00.2413886" startTime="2018-02-18T13:32:20.5604649+11:00" endTime="2018-02-18T13:32:39.9993093+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e4b4e343-ba41-438e-9ac3-eecb611ee290">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method EShop.Automation.Test.RegistrationTest.PerformRegistration threw exception: 
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"Email"}
+  (Session info: chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86)</Message>
+          <StackTrace>    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)
+   at OpenQA.Selenium.By.&lt;&gt;c__DisplayClass16_0.&lt;Id&gt;b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at EShop.Automation.BasePage.FindById(String id) in D:\sarsu\se\EShop.Test\EShop.Automation\BasePage.cs:line 23
+   at EShop.Automation.Pages.RegistrationPage.set_Email(String value) in D:\sarsu\se\EShop.Test\EShop.Automation\Pages\RegistrationPage.cs:line 22
+   at EShop.Automation.Test.RegistrationTest.PerformRegistration() in D:\sarsu\se\EShop.Test\EShop.Automation.Test\Tests\RegistrationTest.cs:line 30
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="41c33578-e9c5-49e9-9c1d-248fda670233" testId="692814cb-0873-4aa2-8280-5d903e73126b" testName="PerformRegistration (Data Row 3)" computerName="DESKTOP-1FQE50J" duration="00:00:01.8446628" startTime="2018-02-18T13:32:20.5604649+11:00" endTime="2018-02-18T13:32:39.9993093+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="41c33578-e9c5-49e9-9c1d-248fda670233">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method EShop.Automation.Test.RegistrationTest.PerformRegistration threw exception: 
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"Email"}
+  (Session info: chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86)</Message>
+          <StackTrace>    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)
+   at OpenQA.Selenium.By.&lt;&gt;c__DisplayClass16_0.&lt;Id&gt;b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at EShop.Automation.BasePage.FindById(String id) in D:\sarsu\se\EShop.Test\EShop.Automation\BasePage.cs:line 23
+   at EShop.Automation.Pages.RegistrationPage.set_Email(String value) in D:\sarsu\se\EShop.Test\EShop.Automation\Pages\RegistrationPage.cs:line 22
+   at EShop.Automation.Test.RegistrationTest.PerformRegistration() in D:\sarsu\se\EShop.Test\EShop.Automation.Test\Tests\RegistrationTest.cs:line 30
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8b7b4b53-48e2-4b9b-b2fc-01a051d2ebcd" testId="05ee05c4-e540-4ad3-9d4c-3732a2870005" testName="PerformRegistration (Data Row 4)" computerName="DESKTOP-1FQE50J" duration="00:00:00.2234691" startTime="2018-02-18T13:32:20.5604649+11:00" endTime="2018-02-18T13:32:39.9993093+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b7b4b53-48e2-4b9b-b2fc-01a051d2ebcd">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method EShop.Automation.Test.RegistrationTest.PerformRegistration threw exception: 
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"Email"}
+  (Session info: chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86)</Message>
+          <StackTrace>    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)
+   at OpenQA.Selenium.By.&lt;&gt;c__DisplayClass16_0.&lt;Id&gt;b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at EShop.Automation.BasePage.FindById(String id) in D:\sarsu\se\EShop.Test\EShop.Automation\BasePage.cs:line 23
+   at EShop.Automation.Pages.RegistrationPage.set_Email(String value) in D:\sarsu\se\EShop.Test\EShop.Automation\Pages\RegistrationPage.cs:line 22
+   at EShop.Automation.Test.RegistrationTest.PerformRegistration() in D:\sarsu\se\EShop.Test\EShop.Automation.Test\Tests\RegistrationTest.cs:line 30
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="30206ae9-ab3f-44c9-8837-a3cf37d28c6f" testId="b7008768-3351-4fab-994f-5019001b194d" testName="PerformRegistration (Data Row 5)" computerName="DESKTOP-1FQE50J" duration="00:00:01.8525853" startTime="2018-02-18T13:32:20.5604649+11:00" endTime="2018-02-18T13:32:39.9993093+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="30206ae9-ab3f-44c9-8837-a3cf37d28c6f">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method EShop.Automation.Test.RegistrationTest.PerformRegistration threw exception: 
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"Email"}
+  (Session info: chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86)</Message>
+          <StackTrace>    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)
+   at OpenQA.Selenium.By.&lt;&gt;c__DisplayClass16_0.&lt;Id&gt;b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at EShop.Automation.BasePage.FindById(String id) in D:\sarsu\se\EShop.Test\EShop.Automation\BasePage.cs:line 23
+   at EShop.Automation.Pages.RegistrationPage.set_Email(String value) in D:\sarsu\se\EShop.Test\EShop.Automation\Pages\RegistrationPage.cs:line 22
+   at EShop.Automation.Test.RegistrationTest.PerformRegistration() in D:\sarsu\se\EShop.Test\EShop.Automation.Test\Tests\RegistrationTest.cs:line 30
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7cce8308-5fe7-4518-98c6-c64843f61797" testId="fb371063-4545-4c98-9551-4ce455aa3353" testName="PerformRegistration (Data Row 6)" computerName="DESKTOP-1FQE50J" duration="00:00:00.2087123" startTime="2018-02-18T13:32:20.5604649+11:00" endTime="2018-02-18T13:32:39.9993093+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7cce8308-5fe7-4518-98c6-c64843f61797">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method EShop.Automation.Test.RegistrationTest.PerformRegistration threw exception: 
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"Email"}
+  (Session info: chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86)</Message>
+          <StackTrace>    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)
+   at OpenQA.Selenium.By.&lt;&gt;c__DisplayClass16_0.&lt;Id&gt;b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at EShop.Automation.BasePage.FindById(String id) in D:\sarsu\se\EShop.Test\EShop.Automation\BasePage.cs:line 23
+   at EShop.Automation.Pages.RegistrationPage.set_Email(String value) in D:\sarsu\se\EShop.Test\EShop.Automation\Pages\RegistrationPage.cs:line 22
+   at EShop.Automation.Test.RegistrationTest.PerformRegistration() in D:\sarsu\se\EShop.Test\EShop.Automation.Test\Tests\RegistrationTest.cs:line 30
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2f111837-e921-462e-b964-f0ed552bd3cd" testId="7b933429-0b68-4dc3-96b0-70aaba857d53" testName="PerformRegistration (Data Row 7)" computerName="DESKTOP-1FQE50J" duration="00:00:01.8749087" startTime="2018-02-18T13:32:20.5604649+11:00" endTime="2018-02-18T13:32:39.9993093+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2f111837-e921-462e-b964-f0ed552bd3cd">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method EShop.Automation.Test.RegistrationTest.PerformRegistration threw exception: 
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"Email"}
+  (Session info: chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86)</Message>
+          <StackTrace>    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)
+   at OpenQA.Selenium.By.&lt;&gt;c__DisplayClass16_0.&lt;Id&gt;b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at EShop.Automation.BasePage.FindById(String id) in D:\sarsu\se\EShop.Test\EShop.Automation\BasePage.cs:line 23
+   at EShop.Automation.Pages.RegistrationPage.set_Email(String value) in D:\sarsu\se\EShop.Test\EShop.Automation\Pages\RegistrationPage.cs:line 22
+   at EShop.Automation.Test.RegistrationTest.PerformRegistration() in D:\sarsu\se\EShop.Test\EShop.Automation.Test\Tests\RegistrationTest.cs:line 30
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8f41ccd4-0fa7-4aed-a8d6-9c3c7dc50a10" testId="6c5da8dd-2229-4821-acb1-1499b8227206" testName="PerformRegistration (Data Row 8)" computerName="DESKTOP-1FQE50J" duration="00:00:00.2000823" startTime="2018-02-18T13:32:20.5604649+11:00" endTime="2018-02-18T13:32:39.9993093+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8f41ccd4-0fa7-4aed-a8d6-9c3c7dc50a10">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method EShop.Automation.Test.RegistrationTest.PerformRegistration threw exception: 
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"Email"}
+  (Session info: chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86)</Message>
+          <StackTrace>    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)
+   at OpenQA.Selenium.By.&lt;&gt;c__DisplayClass16_0.&lt;Id&gt;b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at EShop.Automation.BasePage.FindById(String id) in D:\sarsu\se\EShop.Test\EShop.Automation\BasePage.cs:line 23
+   at EShop.Automation.Pages.RegistrationPage.set_Email(String value) in D:\sarsu\se\EShop.Test\EShop.Automation\Pages\RegistrationPage.cs:line 22
+   at EShop.Automation.Test.RegistrationTest.PerformRegistration() in D:\sarsu\se\EShop.Test\EShop.Automation.Test\Tests\RegistrationTest.cs:line 30
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7aa8980f-4b08-4acd-9ba4-40f6362ab1ff" testId="44eeab0a-f4d0-478a-b84e-1637341a53e3" testName="PerformRegistration (Data Row 9)" computerName="DESKTOP-1FQE50J" duration="00:00:01.8670256" startTime="2018-02-18T13:32:20.5604649+11:00" endTime="2018-02-18T13:32:39.9993093+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7aa8980f-4b08-4acd-9ba4-40f6362ab1ff">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method EShop.Automation.Test.RegistrationTest.PerformRegistration threw exception: 
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"Email"}
+  (Session info: chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86)</Message>
+          <StackTrace>    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)
+   at OpenQA.Selenium.By.&lt;&gt;c__DisplayClass16_0.&lt;Id&gt;b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at EShop.Automation.BasePage.FindById(String id) in D:\sarsu\se\EShop.Test\EShop.Automation\BasePage.cs:line 23
+   at EShop.Automation.Pages.RegistrationPage.set_Email(String value) in D:\sarsu\se\EShop.Test\EShop.Automation\Pages\RegistrationPage.cs:line 22
+   at EShop.Automation.Test.RegistrationTest.PerformRegistration() in D:\sarsu\se\EShop.Test\EShop.Automation.Test\Tests\RegistrationTest.cs:line 30
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="13e5a038-96c8-4bc1-b3ca-51d61b2f01ed" testId="4cde03bc-2e6e-4536-92ee-cd29e311617a" testName="PerformRegistration (Data Row 10)" computerName="DESKTOP-1FQE50J" duration="00:00:00.2122415" startTime="2018-02-18T13:32:20.5604649+11:00" endTime="2018-02-18T13:32:39.9993093+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="13e5a038-96c8-4bc1-b3ca-51d61b2f01ed">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method EShop.Automation.Test.RegistrationTest.PerformRegistration threw exception: 
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"Email"}
+  (Session info: chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86)</Message>
+          <StackTrace>    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)
+   at OpenQA.Selenium.By.&lt;&gt;c__DisplayClass16_0.&lt;Id&gt;b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at EShop.Automation.BasePage.FindById(String id) in D:\sarsu\se\EShop.Test\EShop.Automation\BasePage.cs:line 23
+   at EShop.Automation.Pages.RegistrationPage.set_Email(String value) in D:\sarsu\se\EShop.Test\EShop.Automation\Pages\RegistrationPage.cs:line 22
+   at EShop.Automation.Test.RegistrationTest.PerformRegistration() in D:\sarsu\se\EShop.Test\EShop.Automation.Test\Tests\RegistrationTest.cs:line 30
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0519086e-c075-41f1-b46b-9e0d409fd481" testId="522b3edf-580f-4558-a74b-e991738fbcc6" testName="PerformRegistration (Data Row 11)" computerName="DESKTOP-1FQE50J" duration="00:00:01.8727829" startTime="2018-02-18T13:32:20.5604649+11:00" endTime="2018-02-18T13:32:39.9993093+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0519086e-c075-41f1-b46b-9e0d409fd481">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method EShop.Automation.Test.RegistrationTest.PerformRegistration threw exception: 
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"Email"}
+  (Session info: chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86)</Message>
+          <StackTrace>    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)
+   at OpenQA.Selenium.By.&lt;&gt;c__DisplayClass16_0.&lt;Id&gt;b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at EShop.Automation.BasePage.FindById(String id) in D:\sarsu\se\EShop.Test\EShop.Automation\BasePage.cs:line 23
+   at EShop.Automation.Pages.RegistrationPage.set_Email(String value) in D:\sarsu\se\EShop.Test\EShop.Automation\Pages\RegistrationPage.cs:line 22
+   at EShop.Automation.Test.RegistrationTest.PerformRegistration() in D:\sarsu\se\EShop.Test\EShop.Automation.Test\Tests\RegistrationTest.cs:line 30
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="PerformMyAccountoperations" storage="d:\sarsu\se\eshop.test\eshop.automation.test\bin\debug\eshop.automation.test.dll" id="5c433df3-f043-d333-1aeb-122bc57f3ab3">
+      <Execution id="4c04025c-4b21-4074-974a-451ca5048c3a" />
+      <TestMethod codeBase="D:\sarsu\se\EShop.Test\EShop.Automation.Test\bin\Debug\EShop.Automation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="EShop.Automation.Test.MyAccountPageTest" name="PerformMyAccountoperations" />
+    </UnitTest>
+    <UnitTest name="PerformRegistration (Data Row 0)" storage="d:\sarsu\se\eshop.test\eshop.automation.test\bin\debug\eshop.automation.test.dll" id="2dab56c9-1a34-4723-8c53-11596ad0b49d">
+      <Execution id="671b8094-59fe-4b31-8846-4a865a0ae079" />
+      <TestMethod codeBase="D:\sarsu\se\EShop.Test\EShop.Automation.Test\bin\Debug\EShop.Automation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="EShop.Automation.Test.RegistrationTest" name="PerformRegistration (Data Row 0)" />
+    </UnitTest>
+    <UnitTest name="PerformRegistration (Data Row 1)" storage="d:\sarsu\se\eshop.test\eshop.automation.test\bin\debug\eshop.automation.test.dll" id="a7b85701-d80d-4df0-a35c-0fc5527790a8">
+      <Execution id="13ba7f1c-142a-440c-a3e0-6335aa5b40c2" />
+      <TestMethod codeBase="D:\sarsu\se\EShop.Test\EShop.Automation.Test\bin\Debug\EShop.Automation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="EShop.Automation.Test.RegistrationTest" name="PerformRegistration (Data Row 1)" />
+    </UnitTest>
+    <UnitTest name="PerformRegistration (Data Row 2)" storage="d:\sarsu\se\eshop.test\eshop.automation.test\bin\debug\eshop.automation.test.dll" id="e38c9baa-5323-4632-bcf1-856a8c0b785a">
+      <Execution id="e4b4e343-ba41-438e-9ac3-eecb611ee290" />
+      <TestMethod codeBase="D:\sarsu\se\EShop.Test\EShop.Automation.Test\bin\Debug\EShop.Automation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="EShop.Automation.Test.RegistrationTest" name="PerformRegistration (Data Row 2)" />
+    </UnitTest>
+    <UnitTest name="PerformRegistration (Data Row 3)" storage="d:\sarsu\se\eshop.test\eshop.automation.test\bin\debug\eshop.automation.test.dll" id="692814cb-0873-4aa2-8280-5d903e73126b">
+      <Execution id="41c33578-e9c5-49e9-9c1d-248fda670233" />
+      <TestMethod codeBase="D:\sarsu\se\EShop.Test\EShop.Automation.Test\bin\Debug\EShop.Automation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="EShop.Automation.Test.RegistrationTest" name="PerformRegistration (Data Row 3)" />
+    </UnitTest>
+    <UnitTest name="PerformRegistration (Data Row 4)" storage="d:\sarsu\se\eshop.test\eshop.automation.test\bin\debug\eshop.automation.test.dll" id="05ee05c4-e540-4ad3-9d4c-3732a2870005">
+      <Execution id="8b7b4b53-48e2-4b9b-b2fc-01a051d2ebcd" />
+      <TestMethod codeBase="D:\sarsu\se\EShop.Test\EShop.Automation.Test\bin\Debug\EShop.Automation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="EShop.Automation.Test.RegistrationTest" name="PerformRegistration (Data Row 4)" />
+    </UnitTest>
+    <UnitTest name="PerformRegistration (Data Row 5)" storage="d:\sarsu\se\eshop.test\eshop.automation.test\bin\debug\eshop.automation.test.dll" id="b7008768-3351-4fab-994f-5019001b194d">
+      <Execution id="30206ae9-ab3f-44c9-8837-a3cf37d28c6f" />
+      <TestMethod codeBase="D:\sarsu\se\EShop.Test\EShop.Automation.Test\bin\Debug\EShop.Automation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="EShop.Automation.Test.RegistrationTest" name="PerformRegistration (Data Row 5)" />
+    </UnitTest>
+    <UnitTest name="PerformRegistration (Data Row 6)" storage="d:\sarsu\se\eshop.test\eshop.automation.test\bin\debug\eshop.automation.test.dll" id="fb371063-4545-4c98-9551-4ce455aa3353">
+      <Execution id="7cce8308-5fe7-4518-98c6-c64843f61797" />
+      <TestMethod codeBase="D:\sarsu\se\EShop.Test\EShop.Automation.Test\bin\Debug\EShop.Automation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="EShop.Automation.Test.RegistrationTest" name="PerformRegistration (Data Row 6)" />
+    </UnitTest>
+    <UnitTest name="PerformRegistration (Data Row 7)" storage="d:\sarsu\se\eshop.test\eshop.automation.test\bin\debug\eshop.automation.test.dll" id="7b933429-0b68-4dc3-96b0-70aaba857d53">
+      <Execution id="2f111837-e921-462e-b964-f0ed552bd3cd" />
+      <TestMethod codeBase="D:\sarsu\se\EShop.Test\EShop.Automation.Test\bin\Debug\EShop.Automation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="EShop.Automation.Test.RegistrationTest" name="PerformRegistration (Data Row 7)" />
+    </UnitTest>
+    <UnitTest name="PerformRegistration (Data Row 8)" storage="d:\sarsu\se\eshop.test\eshop.automation.test\bin\debug\eshop.automation.test.dll" id="6c5da8dd-2229-4821-acb1-1499b8227206">
+      <Execution id="8f41ccd4-0fa7-4aed-a8d6-9c3c7dc50a10" />
+      <TestMethod codeBase="D:\sarsu\se\EShop.Test\EShop.Automation.Test\bin\Debug\EShop.Automation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="EShop.Automation.Test.RegistrationTest" name="PerformRegistration (Data Row 8)" />
+    </UnitTest>
+    <UnitTest name="PerformRegistration (Data Row 9)" storage="d:\sarsu\se\eshop.test\eshop.automation.test\bin\debug\eshop.automation.test.dll" id="44eeab0a-f4d0-478a-b84e-1637341a53e3">
+      <Execution id="7aa8980f-4b08-4acd-9ba4-40f6362ab1ff" />
+      <TestMethod codeBase="D:\sarsu\se\EShop.Test\EShop.Automation.Test\bin\Debug\EShop.Automation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="EShop.Automation.Test.RegistrationTest" name="PerformRegistration (Data Row 9)" />
+    </UnitTest>
+    <UnitTest name="PerformRegistration (Data Row 10)" storage="d:\sarsu\se\eshop.test\eshop.automation.test\bin\debug\eshop.automation.test.dll" id="4cde03bc-2e6e-4536-92ee-cd29e311617a">
+      <Execution id="13e5a038-96c8-4bc1-b3ca-51d61b2f01ed" />
+      <TestMethod codeBase="D:\sarsu\se\EShop.Test\EShop.Automation.Test\bin\Debug\EShop.Automation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="EShop.Automation.Test.RegistrationTest" name="PerformRegistration (Data Row 10)" />
+    </UnitTest>
+    <UnitTest name="PerformRegistration (Data Row 11)" storage="d:\sarsu\se\eshop.test\eshop.automation.test\bin\debug\eshop.automation.test.dll" id="522b3edf-580f-4558-a74b-e991738fbcc6">
+      <Execution id="0519086e-c075-41f1-b46b-9e0d409fd481" />
+      <TestMethod codeBase="D:\sarsu\se\EShop.Test\EShop.Automation.Test\bin\Debug\EShop.Automation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="EShop.Automation.Test.RegistrationTest" name="PerformRegistration (Data Row 11)" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="5c433df3-f043-d333-1aeb-122bc57f3ab3" executionId="4c04025c-4b21-4074-974a-451ca5048c3a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2dab56c9-1a34-4723-8c53-11596ad0b49d" executionId="671b8094-59fe-4b31-8846-4a865a0ae079" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a7b85701-d80d-4df0-a35c-0fc5527790a8" executionId="13ba7f1c-142a-440c-a3e0-6335aa5b40c2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e38c9baa-5323-4632-bcf1-856a8c0b785a" executionId="e4b4e343-ba41-438e-9ac3-eecb611ee290" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="692814cb-0873-4aa2-8280-5d903e73126b" executionId="41c33578-e9c5-49e9-9c1d-248fda670233" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="05ee05c4-e540-4ad3-9d4c-3732a2870005" executionId="8b7b4b53-48e2-4b9b-b2fc-01a051d2ebcd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b7008768-3351-4fab-994f-5019001b194d" executionId="30206ae9-ab3f-44c9-8837-a3cf37d28c6f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fb371063-4545-4c98-9551-4ce455aa3353" executionId="7cce8308-5fe7-4518-98c6-c64843f61797" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7b933429-0b68-4dc3-96b0-70aaba857d53" executionId="2f111837-e921-462e-b964-f0ed552bd3cd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6c5da8dd-2229-4821-acb1-1499b8227206" executionId="8f41ccd4-0fa7-4aed-a8d6-9c3c7dc50a10" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="44eeab0a-f4d0-478a-b84e-1637341a53e3" executionId="7aa8980f-4b08-4acd-9ba4-40f6362ab1ff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4cde03bc-2e6e-4536-92ee-cd29e311617a" executionId="13e5a038-96c8-4bc1-b3ca-51d61b2f01ed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="522b3edf-580f-4558-a74b-e991738fbcc6" executionId="0519086e-c075-41f1-b46b-9e0d409fd481" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="13" executed="13" passed="0" failed="13" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>
