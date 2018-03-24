@@ -9,6 +9,7 @@ namespace EShop.Automation.Test.TestData
 {
     public class MyAccountTestData 
     {
+        //Test Data
         public MyAccountTestData(DataRow data)
         {
             Email = data["Email"]?.ToString();
